@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
 
-proofNumber(0)
+findDayOfWeek(8)
 
 }
 // Aufgabe 1
@@ -55,3 +55,20 @@ fun proofNumber(num: Int){
     }
     else println("Die Zahl $num ist nagativ")
 }
+// Aufgabe 5 Aufgabe: Schreibe ein Programm, das eine Zahl von 1 bis 7 als Eingabe nimmt und den entsprechenden Wochentag (Montag bis Sonntag) ausgibt.
+fun findDayOfWeek(number: Int){
+    var day = when(number){
+        1 -> "Monday"
+        2 -> "Tuesday"
+        3 -> "Wednesday"
+        4 -> "Thursday"
+        5 -> "Friday"
+        6 -> "Saturday"
+        7 -> "Sunday"
+        else -> "Ungültige Eingabe"
+    }
+    println("Der Tag nummer $number ist $day")
+
+}
+// Aufgabe 6 Aufgabe: Schreibe ein Programm, das alle geraden Zahlen von 1 bis 100 ausgibt.
+
