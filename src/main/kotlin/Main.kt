@@ -1,7 +1,7 @@
+import OPP_Tasks.Person
+
 fun main(args: Array<String>) {
 
-
-allPlainNum()
 }
 // Aufgabe 1
 var result = 0.0
