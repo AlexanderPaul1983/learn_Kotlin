@@ -1,7 +1,7 @@
 fun main(args: Array<String>) {
 
-findDayOfWeek(8)
 
+allPlainNum()
 }
 // Aufgabe 1
 var result = 0.0
@@ -71,4 +71,13 @@ fun findDayOfWeek(number: Int){
 
 }
 // Aufgabe 6 Aufgabe: Schreibe ein Programm, das alle geraden Zahlen von 1 bis 100 ausgibt.
-
+fun allPlainNum(){
+    for (num in 1..100){
+        if (num == 100){
+            print("$num.")
+        }
+        else if (num % 2 == 0){
+            print("$num, ")
+        }
+    }
+}
