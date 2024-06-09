@@ -1,7 +1,8 @@
 import OPP_Tasks.Person
 
 fun main(args: Array<String>) {
-
+var stringForHash = "a"
+    println(stringForHash.hashCode())
 }
 // Aufgabe 1
 var result = 0.0
